@@ -1,0 +1,2 @@
+# ofmymind
+just learn
