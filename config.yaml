@@ -1,0 +1,388 @@
+categories:
+  - category_title: "Docker Tutorials"
+    items:
+      - title: TechWorld with Nana
+        description: Docker for Linux beginners
+        content: Step-by-step Docker tutorials on Debian/Ubuntu, from installation to container management.
+        url: https://www.youtube.com/c/TechWorldwithNana
+      - title: The Net Ninja
+        description: Docker basics on Ubuntu
+        content: Beginner-friendly Docker series, focusing on Ubuntu setup and containerization.
+        url: https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
+      - title: LearnLinuxTV
+        description: Docker on Debian/Ubuntu guide
+        content: Practical Docker tutorials for Linux users, including Debian and Ubuntu environments.
+        url: https://www.youtube.com/c/LearnLinuxTV
+      - title: Docker, Inc.
+        description: Official Docker Linux tutorials
+        content: Official Docker channel with guides for setting up Docker on Debian/Ubuntu.
+        url: https://www.youtube.com/c/DockerRun
+      - title: Chris Titus Tech
+        description: Docker for Linux enthusiasts
+        content: Tutorials on Docker setup and optimization for Debian/Ubuntu systems.
+        url: https://www.youtube.com/c/ChrisTitusTech
+      - title: The Digital Life
+        description: Docker on Ubuntu explained
+        content: Detailed Docker tutorials, focusing on Ubuntu installation and container deployment.
+        url: https://www.youtube.com/c/TheDigitalLifeTech
+      - title: LinuxHint
+        description: Docker for Debian/Ubuntu users
+        content: Practical Docker guides, including installation and usage on Debian/Ubuntu.
+        url: https://www.youtube.com/c/LinuxHint
+      - title: ByteByteGo
+        description: Docker on Linux simplified
+        content: Easy-to-follow Docker tutorials for Debian/Ubuntu, covering basics to advanced topics.
+        url: https://www.youtube.com/c/ByteByteGo
+      - title: NetworkChuck
+        description: Docker for Linux beginners
+        content: Fun and engaging Docker tutorials, including setup on Ubuntu.
+        url: https://www.youtube.com/c/NetworkChuck
+      - title: CodingWithLewis
+        description: Docker on Ubuntu tutorials
+        content: Beginner-friendly Docker guides, focusing on Ubuntu setup and container management.
+        url: https://www.youtube.com/c/CodingWithLewis
+
+  - category_title: "Tutorial Laravel"
+    items:
+      - title: Laravel Daily
+        description: Laravel tips and tricks.
+        content: Tutorials on Laravel best practices, tips, and advanced features.
+        url: https://www.youtube.com/c/LaravelDaily
+
+      - title: CodeWithDary
+        description: Laravel for beginners.
+        content: Beginner-friendly Laravel tutorials, from basics to advanced topics.
+        url: https://www.youtube.com/c/CodeWithDary
+
+      - title: The Net Ninja
+        description: Laravel full course.
+        content: Comprehensive Laravel tutorials, including authentication, APIs, and more.
+        url: https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
+
+      - title: Laravel News
+        description: Official Laravel updates.
+        content: Official Laravel channel with news, updates, and tutorials.
+        url: https://www.youtube.com/c/LaravelNews
+
+      - title: Povilas Korop
+        description: Advanced Laravel techniques.
+        content: Tutorials on advanced Laravel features like queues, events, and testing.
+        url: https://www.youtube.com/c/PovilasKorop
+
+      - title: DevMarketer
+        description: Laravel and Vue.js.
+        content: Tutorials on integrating Laravel with Vue.js for full-stack development.
+        url: https://www.youtube.com/c/DevMarketer
+
+      - title: Coder's Tape
+        description: Laravel for developers.
+        content: Practical Laravel tutorials for building real-world applications.
+        url: https://www.youtube.com/c/CodersTape
+
+      - title: Laravel Brasil
+        description: Laravel in Portuguese.
+        content: Tutorials on Laravel in Portuguese, covering basics to advanced topics.
+        url: https://www.youtube.com/c/LaravelBrasil
+
+      - title: Laravel Indonesia
+        description: Laravel in Bahasa Indonesia.
+        content: Tutorials on Laravel in Bahasa Indonesia, focusing on practical examples.
+        url: https://www.youtube.com/c/LaravelIndonesia
+
+      - title: Laravel Livewire
+        description: Laravel Livewire tutorials.
+        content: Tutorials on using Laravel Livewire for dynamic frontends.
+        url: https://www.youtube.com/c/LaravelLivewire
+
+  - category_title: "Tutorial GitHub"
+    items:
+      - title: GitHub Guides
+        description: Official GitHub tutorials.
+        content: Official guides and tutorials from GitHub for beginners and advanced users.
+        url: https://guides.github.com/
+
+      - title: GitHub Training
+        description: GitHub learning resources.
+        content: Free and paid courses on GitHub, including workflows and collaboration.
+        url: https://githubtraining.github.io/
+
+      - title: First Contributions
+        description: Start contributing on GitHub.
+        content: A beginner-friendly guide to making your first contribution on GitHub.
+        url: https://github.com/firstcontributions/first-contributions
+
+      - title: GitHub Cheat Sheet
+        description: Quick GitHub reference.
+        content: A cheat sheet for commonly used GitHub commands and workflows.
+        url: https://github.com/tiimgreen/github-cheat-sheet
+
+      - title: GitHub Actions Workshop
+        description: Learn GitHub Actions.
+        content: Hands-on tutorials for automating workflows with GitHub Actions.
+        url: https://github.com/actions/starter-workflows
+
+      - title: GitHub Student Pack
+        description: Resources for students.
+        content: Free tools and tutorials for students to learn and use GitHub.
+        url: https://education.github.com/pack
+
+      - title: GitHub Pages Examples
+        description: Build websites with GitHub.
+        content: Examples and tutorials for creating static websites with GitHub Pages.
+        url: https://github.com/github/pages-gem
+
+      - title: GitHub CLI Tutorial
+        description: Master GitHub CLI.
+        content: Tutorials for using GitHub CLI to manage repositories from the terminal.
+        url: https://github.com/cli/cli
+
+      - title: GitHub Desktop Guide
+        description: GitHub Desktop tutorials.
+        content: Learn how to use GitHub Desktop for managing repositories visually.
+        url: https://docs.github.com/en/desktop
+
+      - title: GitHub Community Forum
+        description: Ask and learn GitHub.
+        content: A community forum for asking questions and sharing knowledge about GitHub.
+        url: https://github.community/
+
+  - category_title: "Tailwind CSS Tutorials"
+    items:
+      - title: Traversy Media
+        description: Practical Tailwind CSS web development
+        content: Videos on building UI components and layouts with Tailwind CSS.
+        url: https://www.youtube.com/user/TechGuyWeb
+      - title: The Net Ninja
+        description: Hands-on Tailwind CSS tutorials
+        content: Series on installation, configuration, and real-world Tailwind usage.
+        url: https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg
+      - title: Adam Wathan
+        description: Tailwind CSS best practices
+        content: Advanced techniques and efficient use of Tailwind CSS.
+        url: https://www.youtube.com/channel/UCy1H38XrN7hi7wHSClfXPqQ
+      - title: Laravel Daily
+        description: Tailwind CSS with Laravel
+        content: Tutorials on combining Tailwind CSS with Laravel projects.
+        url: https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA
+      - title: Dev Ed
+        description: Creative Tailwind CSS designs
+        content: Hands-on guides for modern, responsive designs with Tailwind.
+        url: https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q
+      - title: CodeWithHarry
+        description: Tailwind CSS for beginners
+        content: Beginner-friendly videos on using Tailwind CSS in projects.
+        url: https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww
+      - title: DesignCourse
+        description: Design-focused Tailwind CSS tutorials
+        content: Combining design theory with Tailwind CSS practical examples.
+        url: https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow
+      - title: Program With Erik
+        description: Full-stack with Tailwind CSS
+        content: Building web apps with Tailwind CSS and backend tools.
+        url: https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
+      - title: Coder Coder
+        description: Step-by-step Tailwind CSS guides
+        content: Building websites from scratch using Tailwind CSS.
+        url: https://www.youtube.com/channel/UCzNf0liwUzMN6_pixbQlMhQ
+      - title: Freecodecamp
+        description: Comprehensive Tailwind CSS courses
+        content: From basics to advanced projects with Tailwind CSS.
+        url: https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ
+
+  - category_title: "Docker Apps@GitHub Part I"
+    items:
+      - title: Awesome Docker
+        description: Curated Docker applications list
+        content: A curated list of Docker applications and resources for various use cases.
+        url: https://github.com/veggiemonk/awesome-docker
+      - title: Docker Compose Examples
+        description: Sample Docker Compose setups
+        content: A collection of Docker Compose examples for various applications.
+        url: https://github.com/docker/awesome-compose
+      - title: LinuxServer.io Docker Images
+        description: Prebuilt Docker images collection
+        content: A repository of Docker images for popular applications, optimized for Linux.
+        url: https://github.com/linuxserver/docker-images
+      - title: Portainer
+        description: Docker management made easy
+        content: A lightweight Docker management UI for deploying and managing containers.
+        url: https://github.com/portainer/portainer
+      - title: Jitsi Meet
+        description: Open-source video conferencing
+        content: A Docker-based video conferencing application for secure meetings.
+        url: https://github.com/jitsi/docker-jitsi-meet
+      - title: Nextcloud Docker
+        description: Self-hosted cloud storage
+        content: Docker setup for Nextcloud, a self-hosted file sharing and collaboration platform.
+        url: https://github.com/nextcloud/docker
+      - title: Home Assistant
+        description: Smart home automation platform
+        content: Docker setup for Home Assistant, a home automation tool.
+        url: https://github.com/home-assistant/core
+      - title: Bitwarden RS
+        description: Self-hosted password manager
+        content: A lightweight Docker-compatible implementation of the Bitwarden password manager.
+        url: https://github.com/dani-garcia/vaultwarden
+      - title: Ghost
+        description: Headless CMS for blogging
+        content: Docker setup for Ghost, a modern publishing platform.
+        url: https://github.com/TryGhost/Ghost
+      - title: Rocket.Chat
+        description: Open-source team communication
+        content: Docker setup for Rocket.Chat, a self-hosted chat platform.
+        url: https://github.com/RocketChat/Rocket.Chat
+
+  - category_title: "Docker Apps@GitHub Part II"
+    items:
+      - title: Gitea
+        description: Self-hosted Git service
+        content: Docker setup for Gitea, a lightweight self-hosted Git service.
+        url: https://github.com/go-gitea/gitea
+      - title: Matomo
+        description: Open-source web analytics
+        content: Docker setup for Matomo, a privacy-focused web analytics platform.
+        url: https://github.com/matomo-org/matomo
+      - title: BookStack
+        description: Wiki and documentation platform
+        content: Docker setup for BookStack, a platform for organizing knowledge.
+        url: https://github.com/BookStackApp/BookStack
+      - title: Monica
+        description: Personal relationship manager
+        content: Docker setup for Monica, a CRM to manage personal relationships.
+        url: https://github.com/monicahq/monica
+      - title: Outline
+        description: Team knowledge base tool
+        content: Docker setup for Outline, a collaborative knowledge base for teams.
+        url: https://github.com/outline/outline
+      - title: Wekan
+        description: Open-source Kanban board
+        content: Docker setup for Wekan, a Trello-like Kanban board.
+        url: https://github.com/wekan/wekan
+      - title: Peertube
+        description: Decentralized video sharing
+        content: Docker setup for Peertube, a decentralized video hosting platform.
+        url: https://github.com/Chocobozzz/PeerTube
+      - title: Focalboard
+        description: Open-source task management
+        content: Docker setup for Focalboard, a project management tool.
+        url: https://github.com/mattermost/focalboard
+      - title: Metabase
+        description: Business intelligence made simple
+        content: Docker setup for Metabase, an easy-to-use analytics tool.
+        url: https://github.com/metabase/metabase
+      - title: Nginx Proxy Manager
+        description: Nginx proxy made easy
+        content: Docker setup for Nginx Proxy Manager, a tool for managing Nginx proxies.
+        url: https://github.com/NginxProxyManager/nginx-proxy-manager
+
+  - category_title: "Docker Apps@GitHub Part III"
+    items:
+      - title: Plex-Media-Server
+        description: Media streaming made easy
+        content: Docker setup for Plex, a media server for streaming movies and TV shows.
+        url: https://github.com/plexinc/pms-docker
+      - title: Grafana
+        description: Open-source analytics and monitoring
+        content: Docker setup for Grafana, a tool for visualizing metrics and logs.
+        url: https://github.com/grafana/grafana
+      - title: Huginn
+        description: Automate tasks with agents
+        content: Docker setup for Huginn, a system for building agents to automate tasks.
+        url: https://github.com/huginn/huginn
+      - title: OpenProject
+        description: Project management platform
+        content: Docker setup for OpenProject, a tool for project planning and collaboration.
+        url: https://github.com/opf/openproject
+      - title: Rancher
+        description: Kubernetes management simplified
+        content: Docker setup for Rancher, a platform for managing Kubernetes clusters.
+        url: https://github.com/rancher/rancher
+      - title: Zulip
+        description: Team chat with threading
+        content: Docker setup for Zulip, a team chat app with threaded conversations.
+        url: https://github.com/zulip/docker-zulip
+      - title: Searx
+        description: Privacy-respecting metasearch engine
+        content: Docker setup for Searx, a decentralized and privacy-focused search engine.
+        url: https://github.com/searx/searx
+      - title: Meilisearch
+        description: Lightning-fast search engine
+        content: Docker setup for Meilisearch, an open-source search engine.
+        url: https://github.com/meilisearch/MeiliSearch
+      - title: Strapi
+        description: Headless CMS for developers
+        content: Docker setup for Strapi, a flexible and open-source headless CMS.
+        url: https://github.com/strapi/strapi-docker
+      - title: Wiki.js
+        description: Modern wiki platform
+        content: Docker setup for Wiki.js, a powerful and extensible wiki software.
+        url: https://github.com/Requarks/wiki
+
+  - category_title: "WhatsApp AI Chat"
+    items:
+      - title: CoPilot
+        description: Microsoft
+        content: Microsoft CoPilot
+        url: https://wa.me/18772241042
+      - title: Meta AI
+        description: Meta
+        content: Meta AI
+        url: https://wa.me/13135550002
+      - title: ChatGPT
+        description: OpenAI
+        content: Be nice.
+        url: https://wa.me/18002428478
+      - title: Shmooz AI
+        description: Shmooz AI
+        content: Facilitates conversations, enhancing engagement and communication through intelligent interactions.
+        url: https://wa.me/12014166644
+      - title: Jinni
+        description: Efficient decision-making
+        content: Offers personalized recommendations and insights for efficient decision-making.
+        url: https://wa.me/12014166644
+      - title: You.com
+        description: AI-powered assistance and productivity
+        content: Provides personalized search results with AI-powered assistance and productivity.
+        url: https://wa.me/15854968266
+      - title: WizAI
+        description: Enhancing decision-making efficiency
+        content: Leverages AI to optimize business processes, enhancing decision-making efficiency.
+        url: https://wa.me/4915151853491
+  - category_title: "Chat AI"
+    items:
+      - title: ChatGPT
+        description: Best AI chatbot overall
+        content: By OpenAI, excels in writing, coding, and problem-solving tasks.
+        url: https://chatgpt.com/
+      - title: Copilot
+        description: Best ChatGPT alternative
+        content: Enhances productivity with AI-powered assistance for writing and tasks.
+        url: https://copilot.microsoft.com/
+      - title: Claude
+        description: Anthropic's first AI assistant
+        content: Excels in natural language understanding, writing, and task automation.
+        url: https://claude.ai/
+      - title: Perplexity
+        description: Knowledge begins here
+        content: Specializes in answering questions with accurate, real-time information efficiently.
+        url: https://perplexity.ai/
+      - title: Jasper
+        description: Marketing deserves better
+        content: Enhances content creation with AI-powered writing and marketing assistance.
+        url: https://jasper.ai/
+      - title: You
+        description: Enhance productivity
+        content: Provides personalized search results with AI-powered assistance and productivity.
+        url: https://you.com/
+      - title: WriteSonic
+        description: Platform for marketers
+        content: Offers AI-powered writing tools for content creation and marketing tasks.
+        url: https://writesonic.com/chat
+      - title: DeepSeek
+        description: Still fresh, trust me.
+        content: Excels in data analysis, insights generation, and decision support.
+        url: https://chat.deepseek.com/
+      - title: Gemini
+        description: For loyal Google users
+        content: Offers advanced capabilities in language understanding, reasoning, and tasks.
+        url: https://gemini.google.com/app

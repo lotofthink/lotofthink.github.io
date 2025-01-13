@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>just like other bookmarks, nothing else... - lotOFTHINK</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js-yaml.min.js"></script>
+    <style>
+      .hidden-content {
+        transition: all 0.3s ease-in-out;
+        overflow: hidden;
+        max-height: 0;
+        opacity: 0;
+      }
+      .hidden-content.visible {
+        max-height: 500px;
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800">
+    <div
+      class="bg-gradient-to-r from-slate-700 to-slate-800 border-slate-600 border-y-2"
+    >
+      <h1 class="text-gray-400 text-2xl text-right font-extralight pr-5 py-0.5">
+        <span class="text-gray-200 text-base">lot</span
+        ><span class="text-green-600 text-2xl">of</span>th<span
+          class="text-2xl text-yellow-200"
+          >in</span
+        >k
+        <span
+          class="w-6 h-6 inline-flex items-center justify-center rounded-full bg-gray-700 text-slate-200"
+          style="margin: 0.25rem"
+        >
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1"
+            class="w-6 h-6 transform scale-50"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"
+            ></path>
+            <path d="M7 7h.01"></path>
+          </svg>
+        </span>
+      </h1>
+    </div>
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-20 py-5 mx-auto">
+        <div
+          class="flex flex-wrap w-full text-xs mb-5 flex-col items-center text-center"
+        >
+          <p class="w-full leading-relaxed text-gray-500">
+            read this: just like other bookmarks, nothing else...
+          </p>
+        </div>
+
+        <div class="flex flex-wrap -m-4" id="dynamic-container"></div>
+      </div>
+    </section>
+
+    <script>
+      async function loadYAML() {
+        try {
+          const response = await fetch("config.yaml");
+          if (!response.ok) throw new Error("File not found");
+          const yamlText = await response.text();
+          const data = jsyaml.load(yamlText);
+          return data;
+        } catch (error) {
+          console.error("Error loading YAML:", error);
+          return null;
+        }
+      }
+
+      function renderContent(categories) {
+        const container = document.getElementById("dynamic-container");
+        let html = "";
+
+        categories.forEach((category) => {
+          html += `
+            <div class="xl:w-1/3 md:w-1/2 p-4">
+              <div class="text-gray-900 p-6 rounded-lg hover:border-x hover:border-t hover:shadow-lg font-light">
+                <h2 class="text-lg font-medium title-font mb-1 flex items-center">
+                  <span
+                    class="w-8 h-8 inline-flex items-center justify-center rounded-full bg-gradient-to-r from-slate-700 to-slate-800 text-slate-200 mr-2"
+                  >
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      class="w-6 h-6 transform scale-75"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z"
+                      ></path>
+                      <path d="M7 7h.01"></path>
+                    </svg>
+                  </span>
+                  <span>${category.category_title}</span>
+                </h2>
+                ${category.items
+                  .map(
+                    (item) => `
+                  <div>
+                    <h1
+                      onclick="toggleContent(this)"
+                      title="more: ${item.title} - ${item.description}"
+                      class="cursor-pointer"
+                    >
+                      &ge;${item.title} -<span class="italic font-extralight text-xs">${item.description}</span>
+                    </h1>
+                    <!--start:hidden -->
+                    <div
+                      class="transition-all duration-300 ease-in-out overflow-hidden max-h-0 opacity-0 text-gray-200 bg-gradient-to-r from-slate-600 to-slate-400 ml-2 -pt-1 pb-2 px-2 rounded-b-lg shadow-lg"
+                    >
+                      <div>${item.content}</div>
+                      <p class="text-right">
+                        <span
+                          class="inline-flex items-center justify-center pl-1 px-1 pb-1 text-xs leading-none text-indigo-100 bg-rose-700"
+                          >url:</span
+                        >
+                        <span
+                          class="inline-flex items-center justify-center -ml-1 px-1 pb-1 text-xs leading-none text-yellow-200 bg-teal-700 hover:bg-yellow-200 hover:text-black"
+                        >
+                          <a
+                            title="${item.description}" target="_blank" rel="noopener noreferrer"
+                            href="${item.url}"
+                            >${item.url}</a
+                          >
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                `
+                  )
+                  .join("")}
+              </div>
+            </div>
+          `;
+        });
+
+        container.innerHTML = html;
+      }
+
+      function toggleContent(element) {
+        const content = element.nextElementSibling;
+        if (content.classList.contains("max-h-0")) {
+          content.classList.remove("max-h-0", "opacity-0");
+          content.classList.add("max-h-96", "opacity-100");
+        } else {
+          content.classList.remove("max-h-96", "opacity-100");
+          content.classList.add("max-h-0", "opacity-0");
+        }
+      }
+
+      window.onload = async () => {
+        const data = await loadYAML();
+        if (data && data.categories) {
+          renderContent(data.categories);
+        }
+      };
+    </script>
+  </body>
+</html>
