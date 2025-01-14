@@ -1,6 +1,44 @@
 categories:
+- category_title: "CogniCraft"
+    items: 
+      - title: Kalid Yasin
+        description: DevOps Engineer
+        content: -
+        url: https://github.com/kalidyasin
+      - title: Dea Afrizal
+        description: Engineer/Tech Enthusiast
+        content: - 
+        url: https://github.com/deaafrizal
+      - title: Spacehuhn Tech.
+        description: Open Source Hacking Tools
+        content: -
+        url: https://github.com/SpacehuhnTech
+      - title: Corentin THOMASSET
+        description: it-tools tech guy
+        content: -
+        url: https://github.com/CorentinTh
+      - title: Toby Chui
+        description: zoraxy guy
+        content: - 
+        url: https://github.com/tobychui
+      - title: mertJF
+        description: TailBlocks Guy
+        content: -
+        url: https://github.com/mertJF
+      - title: Shubham Saboo
+        description: awesome-llm-apps guy
+        content: -
+        url: https://github.com/Shubhamsaboo
   - category_title: "Interesting AI Site"
     items: 
+      - title: unwind ai
+        description: Ai news and tools
+        content: Latest AI news, tools and tutorials for AI Developers
+        url: https://www.theunwindai.com/
+      - title: XtraAI
+        description: Ai news and tools
+        content: Artificial Intelligence Ai news and tools, explore the limitless possibilities of AI.
+        url: https://xtraai.site/
       - title: Global Engineer
         description: Explorer, Translation, and Index
         content: to optimally represent information for human comprehension.
@@ -392,3 +430,7 @@ categories:
         description: For loyal Google users
         content: Offers advanced capabilities in language understanding, reasoning, and tasks.
         url: https://gemini.google.com/app
+      - title: QwenLM ai
+        description: Still fresh, im sure..
+        content: if u like chatgpt and deepseek, tham im sure you like this ai.
+        url: https://chat.qwenlm.ai/
