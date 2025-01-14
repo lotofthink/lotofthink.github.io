@@ -1,4 +1,10 @@
 categories:
+  - category_title: "Interesting AI Site"
+    items: 
+      - title: Global Engineer
+      - description: Explorer, Translation, and Index
+      - content: to optimally represent information for human comprehension.
+      - url: https://globe.engineer/ 
   - category_title: "Docker Tutorials"
     items:
       - title: TechWorld with Nana
