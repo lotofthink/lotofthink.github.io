@@ -1,7 +1,7 @@
 categories:
-- category_title: "CogniCraft"
+  - category_title: "CogniCraft"
     items: 
-        title: Kalid Yasin
+      - title: Kalid Yasin
         description: DevOps Engineer
         content: ""
         url: https://github.com/kalidyasin
@@ -12,11 +12,11 @@ categories:
       - title: Spacehuhn Tech.
         description: Open Source Hacking Tools
         content: ""
-        url: https://github.com/SpacehuhnTech
+        url: https://github.com/spacehuhntech
       - title: Corentin THOMASSET
         description: it-tools tech guy
         content: ""
-        url: https://github.com/CorentinTh
+        url: https://github.com/corentinth
       - title: Toby Chui
         description: zoraxy guy
         content: ""
@@ -24,11 +24,11 @@ categories:
       - title: mertJF
         description: TailBlocks Guy
         content: ""
-        url: https://github.com/mertJF
+        url: https://github.com/mertjf
       - title: Shubham Saboo
         description: awesome-llm-apps guy
         content: ""
-        url: https://github.com/Shubhamsaboo
+        url: https://github.com/shubhamsaboo
         
   - category_title: "Interesting AI Site"
     items: 
@@ -50,7 +50,7 @@ categories:
       - title: TechWorld with Nana
         description: Docker for Linux beginners
         content: Step-by-step Docker tutorials on Debian/Ubuntu, from installation to container management.
-        url: https://www.youtube.com/c/TechWorldwithNana
+        url: https://www.youtube.com/c/techworldwithnana
       - title: The Net Ninja
         description: Docker basics on Ubuntu
         content: Beginner-friendly Docker series, focusing on Ubuntu setup and containerization.
@@ -58,46 +58,46 @@ categories:
       - title: LearnLinuxTV
         description: Docker on Debian/Ubuntu guide
         content: Practical Docker tutorials for Linux users, including Debian and Ubuntu environments.
-        url: https://www.youtube.com/c/LearnLinuxTV
+        url: https://www.youtube.com/c/learnlinuxtv
       - title: Docker, Inc.
         description: Official Docker Linux tutorials
         content: Official Docker channel with guides for setting up Docker on Debian/Ubuntu.
-        url: https://www.youtube.com/c/DockerRun
+        url: https://www.youtube.com/c/dockerrun
       - title: Chris Titus Tech
         description: Docker for Linux enthusiasts
         content: Tutorials on Docker setup and optimization for Debian/Ubuntu systems.
-        url: https://www.youtube.com/c/ChrisTitusTech
+        url: https://www.youtube.com/c/christitustech
       - title: The Digital Life
         description: Docker on Ubuntu explained
         content: Detailed Docker tutorials, focusing on Ubuntu installation and container deployment.
-        url: https://www.youtube.com/c/TheDigitalLifeTech
+        url: https://www.youtube.com/c/thedigitallifetech
       - title: LinuxHint
         description: Docker for Debian/Ubuntu users
         content: Practical Docker guides, including installation and usage on Debian/Ubuntu.
-        url: https://www.youtube.com/c/LinuxHint
+        url: https://www.youtube.com/c/linuxhint
       - title: ByteByteGo
         description: Docker on Linux simplified
         content: Easy-to-follow Docker tutorials for Debian/Ubuntu, covering basics to advanced topics.
-        url: https://www.youtube.com/c/ByteByteGo
+        url: https://www.youtube.com/c/bytebytego
       - title: NetworkChuck
         description: Docker for Linux beginners
         content: Fun and engaging Docker tutorials, including setup on Ubuntu.
-        url: https://www.youtube.com/c/NetworkChuck
+        url: https://www.youtube.com/c/networkchuck
       - title: CodingWithLewis
         description: Docker on Ubuntu tutorials
         content: Beginner-friendly Docker guides, focusing on Ubuntu setup and container management.
-        url: https://www.youtube.com/c/CodingWithLewis
+        url: https://www.youtube.com/c/codingwithlewis
 
   - category_title: "Tutorial Laravel"
     items:
       - title: Laravel Daily
         description: Laravel tips and tricks.
         content: Tutorials on Laravel best practices, tips, and advanced features.
-        url: https://www.youtube.com/c/LaravelDaily
+        url: https://www.youtube.com/c/laraveldaily
       - title: CodeWithDary
         description: Laravel for beginners.
         content: Beginner-friendly Laravel tutorials, from basics to advanced topics.
-        url: https://www.youtube.com/c/CodeWithDary
+        url: https://www.youtube.com/c/codewithdary
       - title: The Net Ninja
         description: Laravel full course.
         content: Comprehensive Laravel tutorials, including authentication, APIs, and more.
@@ -105,31 +105,31 @@ categories:
       - title: Laravel News
         description: Official Laravel updates.
         content: Official Laravel channel with news, updates, and tutorials.
-        url: https://www.youtube.com/c/LaravelNews
+        url: https://www.youtube.com/c/laravelnews
       - title: Povilas Korop
         description: Advanced Laravel techniques.
         content: Tutorials on advanced Laravel features like queues, events, and testing.
-        url: https://www.youtube.com/c/PovilasKorop
+        url: https://www.youtube.com/c/povilaskorop
       - title: DevMarketer
         description: Laravel and Vue.js.
         content: Tutorials on integrating Laravel with Vue.js for full-stack development.
-        url: https://www.youtube.com/c/DevMarketer
+        url: https://www.youtube.com/c/devmarketer
       - title: Coder's Tape
         description: Laravel for developers.
         content: Practical Laravel tutorials for building real-world applications.
-        url: https://www.youtube.com/c/CodersTape
+        url: https://www.youtube.com/c/coderstape
       - title: Laravel Brasil
         description: Laravel in Portuguese.
         content: Tutorials on Laravel in Portuguese, covering basics to advanced topics.
-        url: https://www.youtube.com/c/LaravelBrasil
+        url: https://www.youtube.com/c/laravelbrasil
       - title: Laravel Indonesia
         description: Laravel in Bahasa Indonesia.
         content: Tutorials on Laravel in Bahasa Indonesia, focusing on practical examples.
-        url: https://www.youtube.com/c/LaravelIndonesia
+        url: https://www.youtube.com/c/laravelindonesia
       - title: Laravel Livewire
         description: Laravel Livewire tutorials.
         content: Tutorials on using Laravel Livewire for dynamic frontends.
-        url: https://www.youtube.com/c/LaravelLivewire
+        url: https://www.youtube.com/c/laravellivewire
 
   - category_title: "Tutorial GitHub"
     items:
@@ -173,12 +173,13 @@ categories:
         description: Ask and learn GitHub.
         content: A community forum for asking questions and sharing knowledge about GitHub.
         url: https://github.community/
+
   - category_title: "Tailwind CSS Tutorials"
     items:
       - title: Traversy Media
         description: Practical Tailwind CSS web development
         content: Videos on building UI components and layouts with Tailwind CSS.
-        url: https://www.youtube.com/user/TechGuyWeb
+        url: https://www.youtube.com/user/techguyweb
       - title: The Net Ninja
         description: Hands-on Tailwind CSS tutorials
         content: Series on installation, configuration, and real-world Tailwind usage.
@@ -253,11 +254,11 @@ categories:
       - title: Ghost
         description: Headless CMS for blogging
         content: Docker setup for Ghost, a modern publishing platform.
-        url: https://github.com/TryGhost/Ghost
+        url: https://github.com/tryghost/ghost
       - title: Rocket.Chat
         description: Open-source team communication
         content: Docker setup for Rocket.Chat, a self-hosted chat platform.
-        url: https://github.com/RocketChat/Rocket.Chat
+        url: https://github.com/rocketchat/rocket.chat
 
   - category_title: "Docker Apps@GitHub Part II"
     items:
@@ -272,7 +273,7 @@ categories:
       - title: BookStack
         description: Wiki and documentation platform
         content: Docker setup for BookStack, a platform for organizing knowledge.
-        url: https://github.com/BookStackApp/BookStack
+        url: https://github.com/bookstackapp/bookstack
       - title: Monica
         description: Personal relationship manager
         content: Docker setup for Monica, a CRM to manage personal relationships.
@@ -288,7 +289,7 @@ categories:
       - title: Peertube
         description: Decentralized video sharing
         content: Docker setup for Peertube, a decentralized video hosting platform.
-        url: https://github.com/Chocobozzz/PeerTube
+        url: https://github.com/chocobozzz/peertube
       - title: Focalboard
         description: Open-source task management
         content: Docker setup for Focalboard, a project management tool.
@@ -300,7 +301,7 @@ categories:
       - title: Nginx Proxy Manager
         description: Nginx proxy made easy
         content: Docker setup for Nginx Proxy Manager, a tool for managing Nginx proxies.
-        url: https://github.com/NginxProxyManager/nginx-proxy-manager
+        url: https://github.com/nginxproxymanager/nginx-proxy-manager
 
   - category_title: "Docker Apps@GitHub Part III"
     items:
@@ -335,7 +336,7 @@ categories:
       - title: Meilisearch
         description: Lightning-fast search engine
         content: Docker setup for Meilisearch, an open-source search engine.
-        url: https://github.com/meilisearch/MeiliSearch
+        url: https://github.com/meilisearch/meilisearch
       - title: Strapi
         description: Headless CMS for developers
         content: Docker setup for Strapi, a flexible and open-source headless CMS.
@@ -343,7 +344,7 @@ categories:
       - title: Wiki.js
         description: Modern wiki platform
         content: Docker setup for Wiki.js, a powerful and extensible wiki software.
-        url: https://github.com/Requarks/wiki
+        url: https://github.com/requarks/wiki
 
   - category_title: "WhatsApp AI Chat"
     items:
@@ -375,6 +376,7 @@ categories:
         description: Enhancing decision-making efficiency
         content: Leverages AI to optimize business processes, enhancing decision-making efficiency.
         url: https://wa.me/4915151853491
+
   - category_title: "Chat AI"
     items:
       - title: ChatGPT
